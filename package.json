@@ -1,0 +1,23 @@
+{
+  "name": "solidity-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarencep/solidity-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarencep/solidity-demo/issues"
+  },
+  "homepage": "https://github.com/clarencep/solidity-demo#readme",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "web3": "^1.0.0-beta.33"
+  }
+}
