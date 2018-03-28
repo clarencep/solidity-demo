@@ -16,3 +16,5 @@ How To Run
 3. start the test net: `npm run testrpc`
 4. run the script: `npm run test`
 
+If all is done, the test commands' output will be like: [test-output.txt](./test-output.txt).
+

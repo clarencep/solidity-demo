@@ -1,0 +1,79 @@
+> node test.js
+
+28 Mar 14:35:12 - compiling...
+28 Mar 14:35:17 - compiled.
+28 Mar 14:35:18 - deploying the contract by addr '0x06f969C86F4A2F2Cd066ae4225ef400698bbC010'(balance='100000000000000000000') gasEstimate=441660...
+28 Mar 14:35:18 - deploy transaction hash:  0x50b70297f4f9020c358f963739f435a7a6967286f51d3970d8fb2075d57aa331
+28 Mar 14:35:18 - deploy receipt:  { transactionHash: '0x50b70297f4f9020c358f963739f435a7a6967286f51d3970d8fb2075d57aa331',
+  transactionIndex: 0,
+  blockHash: '0x1f2943c0761ccfa1852a05066e9f6523ee67a2b35e8116948a33e6640301e134',
+  blockNumber: 1,
+  gasUsed: 457949,
+  cumulativeGasUsed: 457949,
+  contractAddress: '0x0FC783377a7611Fd24C0a52997c191417D5095A2',
+  status: 1,
+  events: {} }
+28 Mar 14:35:18 - deployed successfully.
+28 Mar 14:35:18 - now the addr '0x06f969C86F4A2F2Cd066ae4225ef400698bbC010' balance is '99990841020000000000'
+28 Mar 14:35:18 - testing with address: '0x0E85117D6473F2Fa35bdbC64070DefF785A0Ad81' (balance: '100000000000000000000')
+28 Mar 14:35:18 - test get greeting...
+28 Mar 14:35:18 - got greeting:  Hello world!
+28 Mar 14:35:18 - after greet address '0x0E85117D6473F2Fa35bdbC64070DefF785A0Ad81' balance is '100000000000000000000'
+28 Mar 14:35:18 - test setGreeting...
+28 Mar 14:35:18 - setGreeting result:  { transactionHash: '0xdeb3a1a5bed288c61037ee09e617a70506105a314a9fd202352b8850837db1b8',
+  transactionIndex: 0,
+  blockHash: '0x204eee02b1bc8e25e72f7e6155026ebdb88b48b7dc9ea4afffe830f31b105f4e',
+  blockNumber: 2,
+  gasUsed: 37567,
+  cumulativeGasUsed: 37567,
+  contractAddress: null,
+  status: 1,
+  events:
+   { GreetingChangedEvent:
+      { logIndex: 0,
+        transactionIndex: 0,
+        transactionHash: '0xdeb3a1a5bed288c61037ee09e617a70506105a314a9fd202352b8850837db1b8',
+        blockHash: '0x204eee02b1bc8e25e72f7e6155026ebdb88b48b7dc9ea4afffe830f31b105f4e',
+        blockNumber: 2,
+        address: '0x0FC783377a7611Fd24C0a52997c191417D5095A2',
+        type: 'mined',
+        id: 'log_6346908f',
+        returnValues: [Result],
+        event: 'GreetingChangedEvent',
+        signature: '0xecfa71a01ae3668a570442b6d994ed557a49b0a456812f026c1f0156141d03dd',
+        raw: [Object] } } }
+28 Mar 14:35:18 - setGreeting emitted events:  { GreetingChangedEvent:
+   { logIndex: 0,
+     transactionIndex: 0,
+     transactionHash: '0xdeb3a1a5bed288c61037ee09e617a70506105a314a9fd202352b8850837db1b8',
+     blockHash: '0x204eee02b1bc8e25e72f7e6155026ebdb88b48b7dc9ea4afffe830f31b105f4e',
+     blockNumber: 2,
+     address: '0x0FC783377a7611Fd24C0a52997c191417D5095A2',
+     type: 'mined',
+     id: 'log_6346908f',
+     returnValues:
+      Result {
+        '0': 'Hello world!',
+        '1': 'Hi world!',
+        '2': '0x0E85117D6473F2Fa35bdbC64070DefF785A0Ad81',
+        oldGreeting: 'Hello world!',
+        newGreeting: 'Hi world!',
+        who: '0x0E85117D6473F2Fa35bdbC64070DefF785A0Ad81' },
+     event: 'GreetingChangedEvent',
+     signature: '0xecfa71a01ae3668a570442b6d994ed557a49b0a456812f026c1f0156141d03dd',
+     raw:
+      { data: '0x000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000e85117d6473f2fa35bdbc64070deff785a0ad81000000000000000000000000000000000000000000000000000000000000000c48656c6c6f20776f726c642100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009486920776f726c64210000000000000000000000000000000000000000000000',
+        topics: [Array] } } }
+28 Mar 14:35:18 - after setGreeting address '0x0E85117D6473F2Fa35bdbC64070DefF785A0Ad81' balance is '99999248660000000000'
+28 Mar 14:35:18 - test get greeting...
+28 Mar 14:35:18 - got greeting:  Hi world!
+28 Mar 14:35:18 - after greet address '0x0E85117D6473F2Fa35bdbC64070DefF785A0Ad81' balance is '99999248660000000000'
+28 Mar 14:35:18 - kill the contact.
+28 Mar 14:35:18 - after kill address '0x0E85117D6473F2Fa35bdbC64070DefF785A0Ad81' balance is '99999248660000000000'
+28 Mar 14:35:18 - end.
+28 Mar 14:35:19 - got confirmations number:  1
+28 Mar 14:35:20 - got confirmations number:  2
+28 Mar 14:35:21 - got confirmations number:  3
+28 Mar 14:35:22 - got confirmations number:  4
+28 Mar 14:35:23 - got confirmations number:  5
+28 Mar 14:35:24 - got confirmations number:  6
