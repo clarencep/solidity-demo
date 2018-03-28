@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "testrpc": "testrpc -a 10 -u 0,1,2,3,4,5"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/clarencep/solidity-demo#readme",
   "dependencies": {
     "ethereumjs-testrpc": "^6.0.3",
+    "solc": "^0.4.21",
     "web3": "^1.0.0-beta.33"
   }
 }
